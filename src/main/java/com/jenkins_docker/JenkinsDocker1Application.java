@@ -12,6 +12,7 @@ public class JenkinsDocker1Application {
 
 	public static void main(String[] args) {
 		logger.info("Main method is gettign executed...");
+		logger.info("Main method is gettign executed 2...");
 		SpringApplication.run(JenkinsDocker1Application.class, args);
 	}
 
